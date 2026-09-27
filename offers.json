@@ -1,0 +1,13 @@
+{
+  "_comment": "Paste the tracking URL from the approved affiliate dashboard into affiliate_url, then run: python3 scripts/apply_offers.py",
+  "hostinger": {
+    "label": "Hostinger",
+    "affiliate_url": "",
+    "official_url": "https://www.hostinger.com/"
+  },
+  "webflow": {
+    "label": "Webflow",
+    "affiliate_url": "",
+    "official_url": "https://webflow.com/"
+  }
+}
