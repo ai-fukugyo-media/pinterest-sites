@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Miumo Publisher</title><style>
+:root{--bg:#faf8f3;--ink:#1e1e22;--muted:#5f5f69;--accent:#3b5bdb}
+@media (prefers-color-scheme:dark){:root{--bg:#16161a;--ink:#ececf0;--muted:#a0a0ab;--accent:#7c93ff}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;line-height:1.75}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.6rem;margin:0 0 4px}h2{font-size:1.1rem;margin-top:2em}
+.muted{color:var(--muted);font-size:.9rem}a{color:var(--accent)}
+code{background:rgba(127,127,127,.15);padding:2px 6px;border-radius:4px;word-break:break-all}
+</style></head><body><main>
+<h1>Miumo Publisher</h1>
+<p class="muted">A personal publishing helper for the creator's own TikTok accounts</p>
+<p>Miumo Publisher prepares photo carousels created by the account owner and sends them to the owner's own TikTok inbox as drafts.
+The owner reviews each draft in the TikTok app and decides whether to post it. Miumo Publisher does not post publicly on its own,
+does not access other users' accounts, and does not collect data from viewers.</p>
+<h2>How it works</h2>
+<ol><li>The owner signs in with TikTok (Login Kit) and grants <code>user.info.basic</code> and <code>video.upload</code>.</li>
+<li>Miumo Publisher uploads the owner's carousel images to the owner's TikTok inbox (Content Posting API, upload to inbox).</li>
+<li>The owner opens TikTok, edits if needed, chooses who can view it, and posts it.</li></ol>
+<p><a href="terms/">Terms of Service</a> · <a href="privacy/">Privacy Policy</a> · Contact: miumostudio@gmail.com</p>
+</main></body></html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Miumo Publisher Sign-in</title><style>
+:root{--bg:#faf8f3;--ink:#1e1e22;--muted:#5f5f69;--accent:#3b5bdb}
+@media (prefers-color-scheme:dark){:root{--bg:#16161a;--ink:#ececf0;--muted:#a0a0ab;--accent:#7c93ff}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;line-height:1.75}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.6rem;margin:0 0 4px}h2{font-size:1.1rem;margin-top:2em}
+.muted{color:var(--muted);font-size:.9rem}a{color:var(--accent)}
+code{background:rgba(127,127,127,.15);padding:2px 6px;border-radius:4px;word-break:break-all}
+</style></head><body><main>
+<h1>Sign-in complete</h1>
+<p>Copy the code below and give it to Miumo on your computer:</p>
+<p><code id="code">(no code in the URL)</code></p>
+<p class="muted" id="state"></p>
+<p class="muted">This page only displays the code from the address bar. It does not send it anywhere.</p>
+<script>
+const p=new URLSearchParams(location.search);
+if(p.get("code")) document.getElementById("code").textContent=p.get("code");
+if(p.get("error")) document.getElementById("code").textContent="Error: "+p.get("error")+" "+(p.get("error_description")||"");
+if(p.get("state")) document.getElementById("state").textContent="state: "+p.get("state");
+</script>
+</main></body></html>
