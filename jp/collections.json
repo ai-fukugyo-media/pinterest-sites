@@ -1,0 +1,191 @@
+{
+ "_comment": "Rakuten affiliate collections for Japanese Pinterest. Prices/ratings are snapshots from 物販投稿候補 (fetched date shown). Build: python3 scripts/build_jp.py",
+ "board": "楽天でお得に暮らす",
+ "collections": [
+  {
+   "slug": "drinks-bulk",
+   "title": "重い飲み物は箱買いでラクに｜ラベルレスのお茶・水・炭酸水まとめ",
+   "lead": "ペットボトルの買い出しは重くて大変。楽天のレビュー評価4.6以上・レビュー3,000件以上から、まとめ買いしやすいお茶・水・炭酸水を集めました。",
+   "pin_hooks": [
+    "重い飲み物は\n箱買いでラクに",
+    "1本50円前後の\nラベルレス緑茶",
+    "レビュー5万件超の\nシリカ水",
+    "水は48本まとめて\nストック",
+    "強炭酸を\n箱でストック"
+   ],
+   "keywords": "まとめ買い,ペットボトル,ラベルレス,ストック,楽天",
+   "products": [
+    {
+     "label": "アイリスオーヤマ 緑茶など 500ml×24本（ラベルレス）",
+     "shop": "暮らし健康ネット館",
+     "price": 1180,
+     "shipping": "送料込み",
+     "rating": 4.75,
+     "reviews": 6853,
+     "rate": 4.0,
+     "fetched": "2026-09-30",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00qhoao.4epym563.g00qhoao.4epyn33c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2F312068%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/kurashikenkou/312068/",
+     "note": "緑茶・ほうじ茶・フレーバーから選べるラベルレス。1本あたり約49円（取得時点）",
+     "short": "ラベルレス緑茶 24本"
+    },
+    {
+     "label": "BIYOUDO シリカ水 500ml×42本（ラベルレス・軟水）",
+     "shop": "BIYOUDO 公式ストア",
+     "price": 2380,
+     "shipping": "送料込み",
+     "rating": 4.81,
+     "reviews": 55210,
+     "rate": 4.0,
+     "fetched": "2026-09-28",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpvo.4epymb87.g00rkpvo.4epynbcf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/biyoudou/10000164/",
+     "note": "レビュー5万件超。350ml×48本も選べる",
+     "short": "シリカ水 42本"
+    },
+    {
+     "label": "アイリスオーヤマ 富士山の天然水 500ml×48本（ラベルレス）",
+     "shop": "アイリスオーヤマ公式 楽天市場店",
+     "price": 2980,
+     "shipping": "送料込み",
+     "rating": 4.61,
+     "reviews": 5565,
+     "rate": 4.0,
+     "fetched": "2026-08-31",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00t3zto.4epymcba.g00t3zto.4epyn31c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F310999-cp%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/irisplaza-r/310999-cp/",
+     "note": "48本まとめてストック。ゴミ出しがラクなラベルレス",
+     "short": "富士山の天然水 48本"
+    },
+    {
+     "label": "OZA SODA 強炭酸水 500ml×24本",
+     "shop": "LIFEDRINKオンラインストア",
+     "price": 1429,
+     "shipping": "送料別",
+     "rating": 4.68,
+     "reviews": 52101,
+     "rate": 4.0,
+     "fetched": "2026-09-05",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00tkn4o.4epym550.g00tkn4o.4epynf92/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifedrinkcompany%2Fzaosoda-500%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/lifedrinkcompany/zaosoda-500/",
+     "note": "レビュー5万件超の強炭酸。プレーン・レモンなど",
+     "short": "強炭酸水 24本"
+    },
+    {
+     "label": "彩水 やさしい軟水 500ml×48本",
+     "shop": "LIFEDRINKオンラインストア",
+     "price": 2270,
+     "shipping": "送料別",
+     "rating": 4.68,
+     "reviews": 3815,
+     "rate": 4.0,
+     "fetched": "2026-08-30",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00tkn4o.4epym550.g00tkn4o.4epynf92/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifedrinkcompany%2Fayamizu-500-48%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/lifedrinkcompany/ayamizu-500-48/",
+     "note": "やさしい口あたりの軟水を48本",
+     "short": "軟水 彩水 48本"
+    }
+   ],
+   "pin_products": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "slug": "rice-bulk",
+   "title": "お米は通販でまとめ買い｜レビュー評価4.6以上の人気米5選",
+   "lead": "10kgのお米を持ち帰るのは大変。楽天のレビュー評価4.6以上・レビュー6,000件以上の人気米から、玄関まで届けてもらえるものを集めました。",
+   "pin_hooks": [
+    "お米は通販で\nまとめ買い",
+    "ゆめぴりか\n10kgを玄関まで",
+    "レビュー2万件超の\nひとめぼれ",
+    "研がずに炊ける\n無洗米",
+    "容量を選べる\nお助け米"
+   ],
+   "keywords": "お米,まとめ買い,新米,無洗米,楽天",
+   "products": [
+    {
+     "label": "北海道産 ゆめぴりか 10kg（5kg×2袋）",
+     "shop": "ぎんしゃり屋",
+     "price": 6580,
+     "shipping": "送料込み",
+     "rating": 4.75,
+     "reviews": 11203,
+     "rate": 4.0,
+     "fetched": "2026-09-14",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00ql7to.4epym54a.g00ql7to.4epyn832/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkawasaki-beikoku%2F10000016%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/kawasaki-beikoku/10000016/",
+     "note": "5kg×2袋で使いやすい。真空パックも選べる",
+     "short": "ゆめぴりか 10kg"
+    },
+    {
+     "label": "福島県産 ひとめぼれ（容量を選べる）",
+     "shop": "会津CROPS米直販・楽天市場店",
+     "price": 2799,
+     "shipping": "送料込み",
+     "rating": 4.74,
+     "reviews": 20952,
+     "rate": 4.0,
+     "fetched": "2026-09-12",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00plxio.4epymb0d.g00plxio.4epynd82/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjcrops%2F10001511%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/jcrops/10001511/",
+     "note": "レビュー2万件超。5kgから選べる",
+     "price_suffix": "〜",
+     "short": "ひとめぼれ"
+    },
+    {
+     "label": "きらっとごはん ブレンド米（容量を選べる）",
+     "shop": "会津CROPS米直販・楽天市場店",
+     "price": 2599,
+     "shipping": "送料込み",
+     "rating": 4.78,
+     "reviews": 7914,
+     "rate": 4.0,
+     "fetched": "2026-09-12",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00plxio.4epymb0d.g00plxio.4epynd82/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjcrops%2F4562129938344-2%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/jcrops/4562129938344-2/",
+     "note": "白米・無洗米・玄米から選べる",
+     "price_suffix": "〜",
+     "short": "きらっとごはん"
+    },
+    {
+     "label": "アイリスオーヤマ 和の輝き ブレンド米 無洗米",
+     "shop": "アイリスオーヤマ公式 楽天市場店",
+     "price": 4580,
+     "shipping": "送料込み",
+     "rating": 4.69,
+     "reviews": 6670,
+     "rate": 4.0,
+     "fetched": "2026-08-29",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00t3zto.4epymcba.g00t3zto.4epyn31c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F113800%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/irisplaza-r/113800/",
+     "note": "研がずに炊ける無洗米。5kg×2袋の密封パック",
+     "short": "和の輝き 無洗米"
+    },
+    {
+     "label": "あきたこまち 家計お助け米（容量を選べる）",
+     "shop": "こまちライン",
+     "price": 3523,
+     "shipping": "送料込み",
+     "rating": 4.62,
+     "reviews": 6182,
+     "rate": 4.0,
+     "fetched": "2026-08-29",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00thooo.4epyma9e.g00thooo.4epyn7fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkomatirain%2F10000001%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/komatirain/10000001/",
+     "note": "5kgから27kgまで容量を選べる",
+     "price_suffix": "〜",
+     "short": "あきたこまち"
+    }
+   ],
+   "pin_products": [
+    0,
+    1,
+    3,
+    4
+   ]
+  }
+ ]
+}
