@@ -186,6 +186,83 @@
     3,
     4
    ]
+  },
+  {
+   "slug": "oral-care",
+   "title": "歯ブラシ・歯みがきは楽天でまとめ買い｜レビュー評価4.5以上のオーラルケア4選",
+   "lead": "歯ブラシや歯みがき粉は、気づくと切れている消耗品。楽天のレビュー評価4.5以上から、家族分をまとめて買えるものと、毎日のケアを一段ラクにするものを集めました。",
+   "pin_hooks": [
+    "歯ブラシは\nまとめ買い",
+    "歯科専売品を\n25本まとめて",
+    "研磨剤フリー\nの歯みがき粉",
+    "水流で\n歯間ケア",
+    "ブリリアント\nモアW"
+   ],
+   "keywords": "歯ブラシ,まとめ買い,オーラルケア,ホワイトニング,楽天",
+   "pin_products": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "products": [
+    {
+     "label": "Shu&Shu 歯ブラシ 25本セット（5色×5本・大人用／子ども用）",
+     "shop": "歯科専売品のハニコ",
+     "price": 1179,
+     "shipping": "送料込み",
+     "rating": 4.56,
+     "reviews": 1652,
+     "rate": 4.0,
+     "fetched": "2026-10-05",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzu2o.4epymd43.g00tzu2o.4epyn09a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhanico%2F4187696set%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/hanico/4187696set/",
+     "note": "大人用・3〜6歳用・6〜12歳用、ふつう／やわらかめから選べる。1本あたり約47円（取得時点のクーポン価格）",
+     "short": "歯科専売 歯ブラシ25本"
+    },
+    {
+     "label": "GWHITE 薬用ホワイトニング歯みがき粉（医薬部外品・研磨剤フリー）",
+     "shop": "アンド ハビット",
+     "price": 1320,
+     "shipping": "送料込み",
+     "rating": 4.54,
+     "reviews": 280,
+     "rate": 4.0,
+     "fetched": "2026-08-29",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00r23no.4epymeaf.g00r23no.4epyn202/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkobe-beauty-labo%2Fgwt001%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/kobe-beauty-labo/gwt001/",
+     "note": "研磨剤フリーの医薬部外品。送料込み",
+     "short": "研磨剤フリー 歯みがき粉"
+    },
+    {
+     "label": "パナソニック 口腔洗浄器 ジェットウォッシャー ドルツ EW-DJ55",
+     "shop": "Panasonic Store Plus 楽天市場店",
+     "price": 17983,
+     "shipping": "送料込み",
+     "rating": 4.51,
+     "reviews": 403,
+     "rate": 2.0,
+     "fetched": "2026-09-02",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00ubhyo.4epym88a.g00ubhyo.4epyn6b3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Few-dj55-w%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/panasonic-store/ew-dj55-w/",
+     "note": "メーカー公式店。水流で歯間や歯ぐきのきわを洗うタイプ",
+     "short": "ジェットウォッシャー"
+    },
+    {
+     "label": "ライオン ブリリアントモア W 歯みがき粉 90g",
+     "shop": "オーラルケア用品 アットイーハ",
+     "price": 1320,
+     "shipping": "送料別",
+     "rating": 4.78,
+     "reviews": 18,
+     "rate": 4.0,
+     "fetched": "2026-09-19",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00sy9to.4epym385.g00sy9to.4epynd01/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiiha%2F22000216%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/iiha/22000216/",
+     "note": "歯科医院でも扱われるステイン除去タイプ。送料は商品ページで確認",
+     "short": "ブリリアントモア W"
+    }
+   ]
   }
  ]
 }

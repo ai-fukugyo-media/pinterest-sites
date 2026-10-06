@@ -121,7 +121,16 @@ def main(argv=None) -> int:
     (JP / "pins").mkdir(exist_ok=True)
     (JP / "index.html").write_text(index(data["collections"]), encoding="utf-8")
     rows = []
+    # Pins already in pins.csv keep their publish date (they may already be scheduled
+    # on Pinterest); new pins continue one a day after the last scheduled one.
+    existing = {}
+    if (JP / "pins.csv").exists():
+        with (JP / "pins.csv").open(encoding="utf-8") as handle:
+            existing = {r["Media URL"]: r["Publish date"] for r in csv.DictReader(handle)}
     start = datetime.now(JST).replace(hour=20, minute=0, second=0, microsecond=0) + timedelta(days=1)
+    if existing:
+        last = max(datetime.strptime(v, "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc) for v in existing.values())
+        start = max(start, last.astimezone(JST) + timedelta(days=1))
     n = 0
     for c in data["collections"]:
         (JP / c["slug"]).mkdir(exist_ok=True)
@@ -130,18 +139,22 @@ def main(argv=None) -> int:
             name = f"{c['slug']}-{k + 1:02d}.jpg"
             pin(c, k).save(JP / "pins" / name, "JPEG", quality=90, optimize=True)
             hook = c["pin_hooks"][k].replace("\n", "")
-            when = (start + timedelta(days=n)).astimezone(timezone.utc)  # one pin a day, 20:00 JST
+            media = f"{SITE}/pins/{name}"
+            if media in existing:
+                published = existing[media]
+            else:
+                published = (start + timedelta(days=n)).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+                n += 1  # one new pin a day, 20:00 JST
             rows.append({
                 "Title": f"{hook}｜{c['title'].split('｜')[-1]}"[:100],
-                "Media URL": f"{SITE}/pins/{name}",
+                "Media URL": media,
                 "Pinterest board": data["board"],
                 "Thumbnail": "",
                 "Description": (f"※PR {c['lead']} 価格・送料は商品ページで確認してください。")[:500],
                 "Link": f"{SITE}/{c['slug']}/",
-                "Publish date": when.strftime("%Y-%m-%dT%H:%M:%S"),
+                "Publish date": published,
                 "Keywords": c["keywords"],
             })
-            n += 1
     with (JP / "pins.csv").open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
         writer.writeheader()
