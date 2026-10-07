@@ -263,6 +263,83 @@
      "short": "ブリリアントモア W"
     }
    ]
+  },
+  {
+   "slug": "skincare-basics",
+   "title": "クレンジング・洗顔は大容量でまとめ買い｜レビュー評価4.7以上のスキンケア4選",
+   "lead": "毎日使うクレンジングや洗顔は、なくなるたびに買い足すのが面倒。楽天のレビュー評価4.7以上から、大容量やまとめ買いしやすい定番スキンケアを集めました。",
+   "pin_hooks": [
+    "クレンジングは\n大容量で",
+    "レビュー4万件超の\nクレンズオイル",
+    "人気ブランドの\nクレンジング",
+    "泡立て不要の\nクレイ洗顔",
+    "個包装の\nビタミンC美容液"
+   ],
+   "keywords": "クレンジング,洗顔,スキンケア,まとめ買い,楽天",
+   "pin_products": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "products": [
+    {
+     "label": "アテニア スキンクリア クレンズ オイル 大容量350mL",
+     "shop": "アテニア公式ショップ 楽天市場店",
+     "price": 3630,
+     "shipping": "送料込み",
+     "rating": 4.8,
+     "reviews": 48590,
+     "rate": 4.0,
+     "fetched": "2026-09-05",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00tna6o.4epym638.g00tna6o.4epyn0f1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fattenir%2F166013%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/attenir/166013/",
+     "note": "大容量ボトル。つめかえ用も選べる",
+     "short": "クレンズオイル 350mL"
+    },
+    {
+     "label": "シュウ ウエムラ アルティム8∞ ベストセラーキット（クレンジングオイル）",
+     "shop": "シュウ ウエムラ 公式ショップ",
+     "price": 13200,
+     "shipping": "送料別",
+     "rating": 4.84,
+     "reviews": 34678,
+     "rate": 4.0,
+     "fetched": "2026-09-05",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4no.4epym995.g00tl4no.4epyn4e8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/shuuemura/shu30001jp/",
+     "note": "メーカー公式ショップのキット。送料は商品ページで確認",
+     "short": "アルティム8∞ キット"
+    },
+    {
+     "label": "ビーグレン クレイウォッシュ 150g（泡立て不要の洗顔料）",
+     "shop": "ビーグレン公式ショップ楽天市場店",
+     "price": 4290,
+     "shipping": "送料込み",
+     "rating": 4.78,
+     "reviews": 1790,
+     "rate": 4.0,
+     "fetched": "2026-10-07",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00txrpo.4epym713.g00txrpo.4epyn266/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbglen%2F10000003%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/bglen/10000003/",
+     "note": "泡立て不要のクレイ洗顔。メーカー公式ショップ",
+     "short": "クレイウォッシュ"
+    },
+    {
+     "label": "Yunth 生ビタミンC 美容液 1ml×28包",
+     "shop": "【公式】Yunth Store 楽天市場店",
+     "price": 3960,
+     "shipping": "送料込み",
+     "rating": 4.69,
+     "reviews": 44905,
+     "rate": 4.0,
+     "fetched": "2026-09-04",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00u7rbo.4epyme9e.g00u7rbo.4epyn8a6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyunth%2F10000000%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/yunth/10000000/",
+     "note": "1回分ずつの個包装。レビュー4万件超",
+     "short": "生ビタミンC 美容液"
+    }
+   ]
   }
  ]
 }
