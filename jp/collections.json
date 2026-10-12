@@ -340,6 +340,97 @@
      "short": "生ビタミンC 美容液"
     }
    ]
+  },
+  {
+   "slug": "diapers-bulk",
+   "title": "おむつは箱買いで買い忘れ防止｜レビュー評価4.6以上の紙おむつ5選",
+   "lead": "毎日たくさん使うおむつは、買いに行くたびに荷物がかさばります。楽天のレビュー評価4.6以上から、まとめ買いしやすいセットの紙おむつを集めました。サイズは各商品ページで選べます。",
+   "pin_hooks": [
+    "おむつは\n箱買いで",
+    "通気性重視の\nパンツタイプ",
+    "まとめ買い用\nセット",
+    "大きめで\n長く使える",
+    "送料込みの\n3個セット"
+   ],
+   "keywords": "おむつ,紙おむつ,パンツタイプ,まとめ買い,楽天",
+   "pin_products": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "products": [
+    {
+     "label": "メリーズ エアスルー パンツ 3袋入×1箱（サイズを選べる）",
+     "shop": "楽天24 ベビー館",
+     "price": 5980,
+     "shipping": "送料別",
+     "rating": 4.83,
+     "reviews": 3974,
+     "rate": 4.0,
+     "fetched": "2026-08-30",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd4o.4epym39c.g00pzd4o.4epyn6e6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/netbaby/404758/",
+     "note": "通気性重視のパンツタイプ。サイズは商品ページで選択",
+     "short": "メリーズ パンツ"
+    },
+    {
+     "label": "パンパース さらさらケア パンツ 1セット（サイズを選べる）",
+     "shop": "楽天24 ベビー館",
+     "price": 8980,
+     "shipping": "送料別",
+     "rating": 4.82,
+     "reviews": 8838,
+     "rate": 4.0,
+     "fetched": "2026-08-30",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd4o.4epym39c.g00pzd4o.4epyn6e6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404313%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/netbaby/404313/",
+     "note": "まとめ買い用のセット。サイズは商品ページで選択",
+     "short": "パンパース さらさら"
+    },
+    {
+     "label": "マミーポコパンツ 3個セット（M・L・BIG）",
+     "shop": "楽天24 ベビー館",
+     "price": 5721,
+     "shipping": "送料別",
+     "rating": 4.79,
+     "reviews": 8570,
+     "rate": 4.0,
+     "fetched": "2026-08-30",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd4o.4epym39c.g00pzd4o.4epyn6e6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/netbaby/404272/",
+     "note": "大きめサイズで長く使える",
+     "short": "マミーポコ 3個"
+    },
+    {
+     "label": "グーン ぐんぐん吸収パンツ 3個セット",
+     "shop": "楽天24 ベビー館",
+     "price": 4359,
+     "shipping": "送料別",
+     "rating": 4.67,
+     "reviews": 6658,
+     "rate": 4.0,
+     "fetched": "2026-09-05",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd4o.4epym39c.g00pzd4o.4epyn6e6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/netbaby/404196/",
+     "note": "吸収量重視のパンツタイプ",
+     "short": "グーン 3個"
+    },
+    {
+     "label": "アイリスオーヤマ あんしんGenki！ パンツ 3個セット（M150枚ほか）",
+     "shop": "暮らし健康ネット館",
+     "price": 2480,
+     "shipping": "送料込み",
+     "rating": 4.65,
+     "reviews": 1767,
+     "rate": 4.0,
+     "fetched": "2026-09-06",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00qhoao.4epym563.g00qhoao.4epyn33c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2F1925663%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/kurashikenkou/1925663/",
+     "note": "送料込み表示。1枚あたりの単価が安め",
+     "short": "Genki！ 3個"
+    }
+   ]
   }
  ]
 }
