@@ -598,6 +598,97 @@
      "short": "銀鮭 1kg"
     }
    ]
+  },
+  {
+   "slug": "frozen-stock",
+   "title": "冷凍庫にストックする昼ごはん｜レビュー評価4.5以上のちゃんぽん・牛めし・餃子5選",
+   "lead": "寒くなると買い物に出るのがおっくうな日が増えます。楽天のレビュー評価4.5以上から、冷凍庫に入れておけば温めるだけで1食になる、ちゃんぽん・牛めしの具・餃子を集めました。価格はセールやクーポンの時期に取得したものを含むので、最新は各商品ページで確認してください。",
+   "pin_hooks": [
+    "冷凍ストック\nの昼ごはん",
+    "評価4.7の\n長崎ちゃんぽん",
+    "野菜たっぷり\nを選ぶなら",
+    "牛めしの具を\n冷凍庫に",
+    "焼くだけの\n手羽餃子"
+   ],
+   "keywords": "冷凍食品,ストック,ちゃんぽん,牛丼の具,餃子,まとめ買い,楽天",
+   "pin_products": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "products": [
+    {
+     "label": "リンガーハット 長崎ちゃんぽん 8食（冷凍・国産野菜100％の表記）",
+     "shop": "リンガーハット楽天市場店",
+     "price": 3800,
+     "shipping": "送料込み",
+     "rating": 4.72,
+     "reviews": 3773,
+     "rate": 4.0,
+     "fetched": "2026-09-12",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3co.4epymef2.g00qc3co.4epynb40/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc128%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/ringerhut/c128/",
+     "note": "取得時は値引き＋ぎょうざおまけの表記。今の内容は要確認",
+     "short": "長崎ちゃんぽん 8食"
+    },
+    {
+     "label": "リンガーハット 野菜たっぷりちゃんぽん・皿うどん 6食（3種から選べる）",
+     "shop": "リンガーハット楽天市場店",
+     "price": 3825,
+     "shipping": "送料込み",
+     "rating": 4.64,
+     "reviews": 1108,
+     "rate": 4.0,
+     "fetched": "2026-09-12",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3co.4epymef2.g00qc3co.4epynb40/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc25d%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/ringerhut/c25d/",
+     "note": "ちゃんぽん・皿うどん・半々から選べる",
+     "short": "野菜たっぷり 6食"
+    },
+    {
+     "label": "松屋 牛めしの具 プレミアム仕様 120g（食数を選べる）",
+     "shop": "松屋フーズ",
+     "price": 3280,
+     "shipping": "送料込み",
+     "rating": 4.63,
+     "reviews": 1893,
+     "rate": 4.0,
+     "fetched": "2026-09-24",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00pwdgo.4epyma03.g00pwdgo.4epyn281/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuya%2Fus30-1%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/matsuya/us30-1/",
+     "note": "取得時はクーポン表記つき。食数で価格が変わる",
+     "short": "松屋 牛めしの具"
+    },
+    {
+     "label": "一龍堂 えび餃子（具の60％以上がえびの表記）",
+     "shop": "一龍堂",
+     "price": 3980,
+     "shipping": "送料込み",
+     "rating": 4.57,
+     "reviews": 2000,
+     "rate": 4.0,
+     "fetched": "2026-09-06",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00te3ho.4epym4a1.g00te3ho.4epyna79/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsunshine-osaka%2Febi-01%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/sunshine-osaka/ebi-01/",
+     "note": "取得時は半額表記。今の価格は要確認",
+     "short": "えび餃子"
+    },
+    {
+     "label": "水郷のとりやさん 手羽餃子 20本（5本×4袋）",
+     "shop": "水郷のとりやさん",
+     "price": 3980,
+     "shipping": "送料込み",
+     "rating": 4.68,
+     "reviews": 5063,
+     "rate": 4.0,
+     "fetched": "2026-09-06",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/g00pnzpo.4epym6da.g00pnzpo.4epyna18/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuigodori%2Ftebagyoza%2F&rafcid=wsc_i_ra_82f7755f-6298-4d9d-acb2-c264b31d2d14",
+     "item_url": "https://item.rakuten.co.jp/suigodori/tebagyoza/",
+     "note": "国産鶏の手羽先に餃子の具を詰めたもの（商品名より）",
+     "short": "手羽餃子 20本"
+    }
+   ]
   }
  ]
 }
