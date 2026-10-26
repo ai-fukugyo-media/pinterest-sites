@@ -7,6 +7,8 @@ Data: jp/collections.json (prices/ratings are snapshots with their fetch date).
 pin_hooks[0] is the overview pin; pin_hooks[k] features products[pin_products[k-1]].
 The CSV follows Pinterest's bulk-create format; Publish date is UTC.
 Pins link to our own collection page, never straight to the affiliate URL.
+jp/product_pins.json adds one pin per product introduced on SNS (RK/RA, scripts/add_product_pins.py);
+new ones are spread over PRODUCT_HOURS (JST) from the next day, after the last scheduled product pin.
 """
 from __future__ import annotations
 
@@ -24,6 +26,7 @@ FONTS = ("/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf", "C:/Windows/Fonts/
          "/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc")
 ACCENT = (232, 69, 44)
 JST = timezone(timedelta(hours=9))
+PRODUCT_HOURS = (12, 15, 18, 21)
 
 CSS = """:root{--bg:#faf8f3;--card:#fff;--ink:#1e1e22;--muted:#5f5f69;--line:#e6e1d6;--accent:#bf0000}
 @media (prefers-color-scheme:dark){:root{--bg:#16161a;--card:#202026;--ink:#ececf0;--muted:#a0a0ab;--line:#33333b;--accent:#ff6b6b}}
@@ -155,12 +158,41 @@ def main(argv=None) -> int:
                 "Publish date": published,
                 "Keywords": c["keywords"],
             })
+    rows += product_rows(data["board"], existing)
     with (JP / "pins.csv").open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
         writer.writeheader()
         writer.writerows(rows)
     print(f"{len(data['collections'])} pages, {len(rows)} pins -> jp/")
     return 1 if bad else 0
+
+
+def product_slots(after: datetime):
+    """Publish times (UTC) at PRODUCT_HOURS JST, later than `after` and no earlier than tomorrow."""
+    day = max(after.astimezone(JST).date(), datetime.now(JST).date() + timedelta(days=1))
+    while True:
+        for hour in PRODUCT_HOURS:
+            slot = datetime(day.year, day.month, day.day, hour, tzinfo=JST)
+            if slot > after:
+                yield slot.astimezone(timezone.utc)
+        day += timedelta(days=1)
+
+
+def product_rows(board: str, existing: dict[str, str]) -> list[dict]:
+    path = JP / "product_pins.json"
+    if not path.exists():
+        return []
+    pins = json.loads(path.read_text(encoding="utf-8"))["pins"]
+    dates = [datetime.strptime(existing[p["media"]], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
+             for p in pins if p["media"] in existing]
+    slots = product_slots(max(dates, default=datetime.now(JST)))
+    rows = []
+    for p in pins:
+        published = existing.get(p["media"]) or next(slots).strftime("%Y-%m-%dT%H:%M:%S")
+        rows.append({"Title": p["title"][:100], "Media URL": p["media"], "Pinterest board": board, "Thumbnail": "",
+                     "Description": p["description"][:500], "Link": p["link"], "Publish date": published,
+                     "Keywords": p["keywords"]})
+    return rows
 
 
 if __name__ == "__main__":
