@@ -30,7 +30,12 @@ def pin_for(spec_path: Path) -> dict | None:
     elif kind == "RA":
         image = f"{spec['id']}_ig_01.jpg"
         title = spec["tiktok_caption"].splitlines()[0].replace("※PR", "").strip()
-        description = "※PR " + " ".join(spec["instagram_caption"].split("\n\n")[1:3]).replace("\n", " ")
+        if spec.get("pinterest"):
+            title, description = spec["pinterest"]["title"], spec["pinterest"]["description"]
+        else:   # the caption body: after the first blank line, or after the first line when there is none
+            parts = spec["instagram_caption"].split("\n\n")
+            body = parts[1:3] if len(parts) > 1 else spec["instagram_caption"].splitlines()[1:]
+            description = "※PR " + " ".join(body).replace("\n", " ").strip()
     else:
         return None
     if not (ROOT / "miumo" / "sns" / day / image).exists():
